@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script src="index.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portofolio Moreno</title>
+</head>
+
+<body>
+    <!----------NAVBAR---------->
+    <div class="header">
+        <a href="#" class="logo"><i class="fa-solid fa-fire" style="color: red;"></i> Moreno</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Skill">Skill</a>
+            <a href="#Project">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <!----------HOME---------->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h4>Hello <span class="swing-hand">👋</span> , I'm</h4>
+            <h1>Moreno Akbari Pasha</h1>
+            <h3>Frontend Developer</h3>
+
+            <div class="iconhome">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="photo-home">
+            <img src="download (1).jpeg" alt="Moreno Akbari Pasha">
+        </div>
+    </section>
+
+
+<!----------ABOUT---------->
+<section class="about" id="about">
+    <div class="about-image">
+        <img src="download (1).jpeg" data-aos="zoom-in-up">
+    </div>
+
+    <div class="tulisan" data-aos="fade-left">
+        <h1><i class="fa-solid fa-user"></i> About <span class="warna">Me</span></h1>
+        <h3>Hello, i'm <span class="warna">Moreno</span></h3>
+        <p>Hello, let me introduce myself, my name is Moreno Akbari Pasha. I am 17 years old and currently a student at SMK Taruna Bhakti, majoring in Software Engineering (RPL). I have an interest in web development and focus as a Front-End Developer.
+        </p>
+    </div>
+</section>
+
+<!----------SKILL---------->
+<section class="skill" id="Skill">
+    <div class="title" data-aos="zoom-in-up">
+        <h2><i class="fa-solid fa-code"></i> Ski<span>ll</span></h2>
+    </div>
+    <div class="box" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+
+        <div class="card">
+            <i class="fa-brands fa-html5"></i>
+            <h5>HTML</h5>
+            <p>Markup language for building the structure of web pages.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h5>CSS</h5>
+            <p>Style sheet language to beautify the appearance of the website.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-js"></i>
+            <h5>JavaScript</h5>
+            <p>A programming language to make websites more interactive.</p>
+        </div>
+
+        <div class="card">
+            <i class="bx bxl-tailwind-css"></i>
+            <h5>Tailwind CSS</h5>
+            <p>A utility-first CSS framework for faster styling.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-php"></i>
+            <h5>PHP</h5>
+            <p>A server-side programming language for dynamic web development.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-laravel"></i>
+            <h5>Laravel</h5>
+            <p>A powerful and easy to use PHP framework.</p>
+        </div>
+
+        <div class="card">
+            <i class="bx bxl-flutter"></i>
+            <h5>Flutter</h5>
+            <p>UI framework for building multi-platform mobile applications.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-react"></i>
+            <h5>React.js</h5>
+            <p>JavaScript library for building interactive UIs.</p>
+        </div>
+    </div>
+</section>
+
+
+<!---------- CONTACT ME ---------->
+<section class="Contact" id="contact">
+    <div class="container-1" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <h2 class="contact-title"><i class="fa-solid fa-headset"></i> Contact Us</h2>
+        <div class="contact-wrapper">
+            <!-- Formulir Kontak -->
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            
+            <!-- Informasi Kontak -->
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-phone"></i> +62 838 7289 1952</p>
+                <p><i class="fas fa-envelope"></i> morenoakbari19@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Indonesia, Jawa Barat, Depok</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------- FOOTER ---------->
+<footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <div class="footerBottom">
+            <p>&copy; 2024 Designed by <span class="designer"><i class="fa-solid fa-fingerprint"></i> Moreno</span></p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+
+    function toggleMenu() {
+        const navbar = document.querySelector('.navbar');
+        navbar.classList.toggle('active');
+    }
+
+    if (window.innerWidth < 768) {
+    AOS.init({
+        disable: true // Nonaktifkan AOS di HP
+    });
+}
+
+</script>
+</body>
+
+</html>
